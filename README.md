@@ -126,4 +126,4 @@ This Grunt task is being created with the intention of being used by [Bootstrap]
 Use the `jshint` and `jscs` [Grunt](http://gruntjs.com/) tasks to check your compliance with the project's coding style. Add unit tests for any new or changed functionality.
 
 ## Release History
-_(Nothing yet)_
+* v0.1.5 (2014-01-29): First release intended for public consumption.
