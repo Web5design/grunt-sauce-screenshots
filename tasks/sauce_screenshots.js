@@ -126,9 +126,9 @@ module.exports = function(grunt) {
     }
 
     var done = this.async();
-    grunt.log.writeln('Connecting to Sauce Labs...');
+
     var tunnel = new SauceTunnel(process.env.SAUCE_USERNAME, process.env.SAUCE_ACCESS_KEY, null, true);
-    grunt.log.writeln('Tunnel identifier: ' + tunnel.identifier);
+    grunt.log.writeln('Establishing tunnel ' + tunnel.identifier.yellow + ' to Sauce Labs...');
     tunnel.start(function (tunnelConnected) {
       if (!tunnelConnected) {
         grunt.warn.fail('Problem establishing tunnel to Sauce Labs!');
