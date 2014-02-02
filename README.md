@@ -1,4 +1,5 @@
 # grunt-sauce-screenshots
+[![NPM version](https://badge.fury.io/js/grunt-sauce-screenshots.png)](http://badge.fury.io/js/grunt-sauce-screenshots)
 [![Dependency Status](https://david-dm.org/cvrebert/grunt-sauce-screenshots.png)](https://david-dm.org/cvrebert/grunt-sauce-screenshots)
 [![devDependency Status](https://david-dm.org/cvrebert/grunt-sauce-screenshots/dev-status.png)](https://david-dm.org/cvrebert/grunt-sauce-screenshots#info=devDependencies)
 
